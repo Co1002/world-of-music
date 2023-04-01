@@ -141,6 +141,22 @@ hr{
     color: #2d3436;
 }
 
+.circle-item-small{
+    width: 75px;
+    height: 75px;
+    background-color: #ffeaa7;
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.circle-item-small .fa-solid{
+    font-size: 32px;
+    color: #2d3436;
+}
+
 .border-radius{
     border-radius: 30px;
 }
@@ -180,4 +196,8 @@ footer p a{
 
 footer p a:hover{
     color: #ffeaa7;
+}
+
+ol, ul{
+    list-style-position: inside;
 }
